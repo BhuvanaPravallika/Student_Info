@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(red, green, blue, alpha);
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+
+}
+
+.kit{
+    text-align:center;
+    vertical-align: center;
+    margin: 80px;
+    border: 35px solid green;
+    width: 700px;
+    height: 350px;
+}
+#demo{
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    color: blue;
+    font-size: 50px;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    margin: 80px;
+}
+#dem{
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px,0px,0px,0px;
+   
+}
+
+
+
+
+
+

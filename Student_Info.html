@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Fun Page</title>
+        <style>
+            h1{
+                background-color: red;
+                text-align: center;
+            }
+            body{
+                background-color: antiquewhite;
+            }
+            img{
+                float: right ;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <form id="form_submit" >
+        <h1> Welcome To Student_Info Collect</h1>
+        <img  src="students.jpg" alt="students" />
+        <label id="name">Enter Name:</label>
+        <input type="text" id="name"/>
+        <br><br>
+        <label id="number">Enter PHone number:</label>
+        <input type="number" id="number"/>
+        <br><br>
+        <label id="mail" > Enter Email:</label>
+        <input type="email" id="email"/>
+        <br><br>
+        <label id="pwd">Enter Password:</label>
+        <input type="password" id="pwd"/>
+        <br><br>
+        <label id="course">Course Intrested</label>
+        <br><br>
+        <input type="checkbox" id="course"/>
+        <label id="course">C</label>
+        <br><br>
+        <input type="checkbox" id="course"/>
+        <label id="course">C++</label>
+        <br><br>
+        <input type="checkbox" id="course"/>
+        <label id="course">Java</label>
+        <br><br>
+        <input type="checkbox" id="course"/>
+        <label id="course">Python</label>
+        <br><br>
+        <input type="button" value="submit" onclick="func()">
+    </form>
+    <script>
+       function func()
+       {
+        document.getElementById('form_submit').innerHTML="Form Submitted";
+       }
+    </script>
+    </body>
+</html>
